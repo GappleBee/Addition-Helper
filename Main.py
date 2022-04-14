@@ -49,7 +49,7 @@ button.pack()
 button2 = Button(window, text="Next Question", command=Next)
 button2.pack()
 
-# Setting up the 'picture box' so that the picture box can be changed depending on the user's answer rather than adding to the end of another image
+# Setting up the 'picture box' so that the 'picture box' can be changed depending on the user's answer rather than adding to the end of another image
 picture = PhotoImage(file="")
 pictureBox = Label(window, image=picture)
 pictureBox.image = picture

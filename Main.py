@@ -31,6 +31,9 @@ def Next():  # Function for going to the next question (and resetting the image 
 window = Tk()
 window.title("Addition Helper")
 window.geometry("600x400")
+window.wm_iconbitmap(
+    "C:/Users/User/Documents/Coding Documents/Images For Programming/Plus Sign.ico"
+)
 
 # Getting the two numbers to get the user to add together
 num = random.randint(10, 50)

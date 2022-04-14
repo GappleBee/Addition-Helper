@@ -32,7 +32,7 @@ window = Tk()
 window.title("Addition Helper")
 window.geometry("600x400")
 window.wm_iconbitmap(
-    "C:/Users/User/Documents/Coding Documents/Images For Programming/Plus Sign.ico"
+    "C:/Users/User/Documents/Coding Documents/Images For Programming/Plus Sign.ico"  # IMPORTANT: Change this directory to wherever you're storing the "Plus Sign.ico" file otherwise the program will not work properly
 )
 
 # Getting the two numbers to get the user to add together

@@ -29,7 +29,7 @@ def Next():  # Function for going to the next question (and resetting the image 
 
 # Setting up the window
 window = Tk()
-window.title("Additions Helper")
+window.title("Addition Helper")
 window.geometry("600x400")
 
 # Getting the two numbers to get the user to add together

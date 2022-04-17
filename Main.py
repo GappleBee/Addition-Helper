@@ -2,12 +2,12 @@ def Submit():  # Function for submitting the user's answer
     answer = entryBox.get()
     if num + num2 == int(answer):
         picture = PhotoImage(
-            file="C:/Users/User/Documents/Coding Documents/Images For Programming/Tick.ppm"  # IMPORTANT: Change this directory to wherever you're storing the "Tick.ppm" file otherwise the program will not work properly
+            file="Enter the file path where you're storing 'Tick.ppm' here"  # IMPORTANT: Change this directory to wherever you're storing the "Tick.ppm" file otherwise the program will not work properly
         )
         pictureBox.image = picture
     else:
         picture = PhotoImage(
-            file="C:/Users/User/Documents/Coding Documents/Images For Programming/Cross.ppm"  # IMPORTANT: Change this directory to wherever you're storing the "Cross.ppm" file otherwise the program will not work properly
+            file="Enter the file path where you're storing 'Cross.ppm' here"  # IMPORTANT: Change this directory to wherever you're storing the "Cross.ppm" file otherwise the program will not work properly
         )
         pictureBox.image = picture
     pictureBox["image"] = picture
@@ -32,7 +32,7 @@ window = Tk()
 window.title("Addition Helper")
 window.geometry("600x400")
 window.wm_iconbitmap(
-    "C:/Users/User/Documents/Coding Documents/Images For Programming/Plus Sign.ico"  # IMPORTANT: Change this directory to wherever you're storing the "Plus Sign.ico" file otherwise the program will not work properly
+    "Enter the file path where you're storing 'Plus Sign.ico' here"  # IMPORTANT: Change this directory to wherever you're storing the "Plus Sign.ico" file otherwise the program will not work properly
 )
 
 # Getting the two numbers to get the user to add together
